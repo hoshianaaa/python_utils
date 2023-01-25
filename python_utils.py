@@ -13,7 +13,7 @@ def list2string(list):
 def getud_name():
   return os.path.abspath(os.curdir).split("/")[-2]
 
-def run_bash(cmd):
+def bash_cmd(cmd):
   ret = subprocess.Popen(cmd, shell=True,  stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
   out,err = ret.communicate()
   return out,err
