@@ -10,6 +10,7 @@ git clone git@github.com:hoshianaaa/python_utils.git
 - add python program
 
 ```
+import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), './python_utils'))
 
