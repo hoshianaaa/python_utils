@@ -28,12 +28,14 @@ def isfile(path):
 def isdir(path):
   return os.path.isdir(path)
 
+'''
 8 => 3
 3,3,2
 int(8/3) = 2
 8%(2*3) = 2
 
 def divite(index):
+'''
   
 
 
